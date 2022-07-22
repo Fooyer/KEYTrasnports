@@ -1,0 +1,42 @@
+.divform{
+    margin-top: 0vh;
+    height: auto;
+    width: auto;
+    background: rgb(12 10 12);
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px #1c011c;
+	border: 2px solid #242424;
+	transition: .4s;
+	padding: 1.25vw 2.5vw;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 33px;
+    margin: auto;
+
+        #form{
+            color: white;
+
+                .labels{
+                    margin-top: 2vh;
+                    margin-right: 1vw;
+                    margin-left: 1vw;
+                }
+        }
+        #form button{
+            padding: 8px 20px;
+            text-shadow: 0px 0px 5px black;
+            font-size: 13pt;
+            background-color: green;
+            box-shadow: 0px 0px 10px green !important;
+            margin-top: 15%;
+            border: 0;
+        }
+        #form button:hover{
+            background-color: rgb(12, 73, 12);
+        }
+}
+.mb-3{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
